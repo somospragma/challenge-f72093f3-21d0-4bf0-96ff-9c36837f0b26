@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/jsonc",
+  "blocks": [
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "props": {
+        "title": "Welcome to our store!"
+      }
+    },
+    {
+      "id": "featured-products",
+      "type": "product-list",
+      "props": {
+        "products": []
+      }
+    }
+  ]
+}

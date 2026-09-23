@@ -1,0 +1,17 @@
+{
+  "fadeIn": {
+    "duration": "0.3s",
+    "delay": "0s",
+    "easing": "ease-out"
+  },
+  "slideIn": {
+    "duration": "0.5s",
+    "delay": "0.2s",
+    "easing": "ease-in-out"
+  },
+  "scaleUp": {
+    "duration": "0.4s",
+    "delay": "0s",
+    "easing": "ease-in"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "home": {
+    "props": {
+      "title": "string",
+      "products": "array"
+    }
+  },
+  "product": {
+    "props": {
+      "name": "string",
+      "price": "number",
+      "addToCart": "function"
+    }
+  }
+}

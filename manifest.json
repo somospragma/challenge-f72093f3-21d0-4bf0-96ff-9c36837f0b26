@@ -1,0 +1,67 @@
+{
+  "vendor": "vtex",
+  "name": "store-ui-animations",
+  "version": "1.0.0",
+  "builders": {
+    "react": "3.x",
+    "store": "4.x",
+    "styles": "2.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-ui": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.product-summary": "2.x",
+    "vtex.product-details": "2.x",
+    "vtex.minicart": "2.x"
+  },
+  "peerDependencies": {
+    "react": "18.x",
+    "react-dom": "18.x"
+  },
+  "settings": {
+    "title": "Store UI with Animations",
+    "description": "Custom store components with animations and transitions for improved UX",
+    "group": "store",
+    "icons": [
+      {
+        "name": "default",
+        "path": "assets/icons/default.svg"
+      }
+    ],
+    "theme": {
+      "default": "vtex.theme"
+    }
+  },
+  "scripts": {
+    "lint": "vtex lint",
+    "lint:fix": "vtex lint --fix",
+    "prettier": "vtex prettier --write",
+    "test": "vtex test"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/**"
+      }
+    }
+  ],
+  "billingOptions": {
+    "type": "free"
+  },
+  "registries": [
+    "vtex.assets-builder@0.x"
+  ],
+  "memory": {
+    "default": "256Mi",
+    "max": "512Mi"
+  },
+  "workspaces": [
+    "react",
+    "store",
+    "styles"
+  ]
+}

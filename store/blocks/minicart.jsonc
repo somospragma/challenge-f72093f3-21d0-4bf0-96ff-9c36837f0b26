@@ -1,0 +1,13 @@
+{
+  // SUPERFICIE DE PRÁCTICA: Composición del bloque del minicart con transiciones fluidas al añadir/eliminar productos.
+  // Los estudiantes deben implementar las animaciones y transiciones según las especificaciones del diseño.
+  "components": [
+    {
+      "type": "minicart",
+      "props": {
+        "animation": "slide-in",
+        "transition": "fade-out"
+      }
+    }
+  ]
+}
